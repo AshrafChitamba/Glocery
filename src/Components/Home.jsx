@@ -1,12 +1,13 @@
+import Image from '../../image/banner-bg.webp'
 const Home = () => {
     const styles = {
-      background: 'url(../image/banner-bg.webp)',
+      background: `url(${Image})`,
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover',
       backgroundPosition: 'center'
     }
   return (
-    <div className="d-grid justify-content-center container-fluid py-5" style={styles}>
+    <div className="d-grid justify-content-center container-fluid py-5" style={styles} id='home'>
       <section id="home" className="py-5">
         <div class="content text-center">
           <h3 style={{textTransform: 'capitalize'}}>

@@ -1,19 +1,22 @@
 import { AiFillCalendar } from 'react-icons/ai'
 import { HiUser } from "react-icons/hi";
 import Carousel from "react-multi-carousel";
+import blog1 from '../../image/blog-1.jpg'
+import blog2 from '../../image/blog-2.jpg'
+import blog3 from '../../image/blog-3.jpg'
 
 const Blogs = () => {
   const data = [
     {
-      image: "image/blog-1.jpg",
+      image: blog1,
       price: "upto 50% off",
     },
     {
-      image: "image/blog-2.jpg",
+      image: blog2,
       price: "upto 50% off",
     },
     {
-      image: "image/blog-3.jpg",
+      image: blog3,
       price: "upto 50% off",
     }
   ];

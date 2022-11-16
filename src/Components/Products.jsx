@@ -1,28 +1,36 @@
 import { FaStarHalfAlt } from "react-icons/fa";
 import { AiFillStar } from "react-icons/ai";
 import Carousel from "react-multi-carousel";
+import product1 from '../../image/product-1.png'
+import product2 from '../../image/product-2.png'
+import product3 from '../../image/product-3.png'
+import product4 from '../../image/product-4.png'
+import product5 from '../../image/product-5.png'
+import product6 from '../../image/product-6.png'
+import product7 from '../../image/product-7.png'
+import product8 from '../../image/product-8.png'
 
 const Products = () => {
   const data = [
     {
       data: [
         {
-          image: "image/product-1.png",
+          image: product1,
           title: "fresh orange",
           price: "$4.99/- - 10.99/-",
         },
         {
-          image: "image/product-2.png",
+          image: product2,
           title: "fresh orange",
           price: "$4.99/- - 10.99/-",
         },
         {
-          image: "image/product-3.png",
+          image: product3,
           title: "fresh orange",
           price: "$4.99/- - 10.99/-",
         },
         {
-          image: "image/product-4.png",
+          image: product4,
           title: "fresh orange",
           price: "$4.99/- - 10.99/-",
         },
@@ -31,22 +39,22 @@ const Products = () => {
     {
       data: [
         {
-          image: "image/product-8.png",
+          image: product5,
           title: "fresh orange",
           price: "$4.99/- - 10.99/-",
         },
         {
-          image: "image/product-5.png",
+          image: product6,
           title: "fresh orange",
           price: "$4.99/- - 10.99/-",
         },
         {
-          image: "image/product-6.png",
+          image: product7,
           title: "fresh orange",
           price: "$4.99/- - 10.99/-",
         },
         {
-          image: "image/product-7.png",
+          image: product8,
           title: "fresh orange",
           price: "$4.99/- - 10.99/-",
         },

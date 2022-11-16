@@ -5,6 +5,7 @@ import { GrFacebookOption, GrTwitter } from "react-icons/gr";
 import { FaLinkedin } from "react-icons/fa";
 import { RiShoppingBasket2Fill } from "react-icons/ri";
 import { Link } from "react-scroll";
+import image from '../../image/payment.png'
 
 const Footer = () => {
   return (
@@ -88,7 +89,7 @@ const Footer = () => {
             <p style={{textTransform: 'capitalize'}}>subscribe for latest updates</p>
             <input type="email" placeholder="your email" class="search_input d-block w-100  bg-light p-2 rounded-2 fs-6" />
             <button className="btn btn-outline-dark fw-bold px-4 my-3">Subscribe</button>
-            <img src="image/payment.png" class="payment-img" alt="" />
+            <img src={image} alt="" />
           </div>
         </div>
 
