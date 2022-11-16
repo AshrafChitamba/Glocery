@@ -4,6 +4,9 @@ import { HiShoppingCart, HiOutlineSearch, HiUser } from "react-icons/hi";
 import { MdMenu } from "react-icons/md";
 import { RiShoppingBasket2Fill } from "react-icons/ri";
 import { MdDeleteOutline } from "react-icons/md";
+import cart1 from '../../image/cart-img-1.png'
+import cart2 from '../../image/cart-img-2.png'
+import cart3 from '../../image/cart-img-3.png'
 
 const NavBar = () => {
   const [showSearchForm, setShowSearchForm] = useState(false);
@@ -120,7 +123,7 @@ const NavBar = () => {
         {showcarts && (
           <div className="slide_in bg-white shadow px-2 py-1 rounded-1 mt-2">
             <div className="d-flex align-items-center gap-2">
-              <img src="image/cart-img-1.png" width={70} height={70} alt="" />
+              <img src={cart1} width={70} height={70} alt="" />
               <div className="content">
                 <h6 className="fs-5 m-0">watermelon</h6>
                 <span className="price">$4.99/-</span>
@@ -129,7 +132,7 @@ const NavBar = () => {
               <MdDeleteOutline className="fs-4 delete_icon" />
             </div>
             <div className="d-flex align-items-center gap-2">
-              <img src="image/cart-img-2.png" width={70} height={70} alt="" />
+              <img src={cart2} width={70} height={70} alt="" />
               <div className="content">
                 <h6 className="fs-5 m-0">onion</h6>
                 <span className="price">$4.99/-</span>
@@ -138,7 +141,7 @@ const NavBar = () => {
               <MdDeleteOutline className="fs-4 delete_icon" />
             </div>
             <div className="d-flex align-items-center gap-2">
-              <img src="image/cart-img-3.png" width={70} height={70} alt="" />
+              <img src={cart3} width={70} height={70} alt="" />
               <div className="content">
                 <h6 className="fs-5 m-0">chicken</h6>
                 <span className="price">$4.99/-</span>
