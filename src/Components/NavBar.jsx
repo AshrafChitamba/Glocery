@@ -79,7 +79,7 @@ const NavBar = () => {
           className="d-flex align-items-center gap-2"
           style={{ zIndex: "999" }}
         >
-          <MdMenu className={`fs-3 p-1 rounded-1 icons ${
+          <MdMenu className={`d-md-none fs-3 p-1 rounded-1 icons ${
               showLinks ? "bg-warning text-white" : "bg-light"
             }`}
             onClick={showNav} />
