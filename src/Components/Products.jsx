@@ -146,8 +146,8 @@ const Products = () => {
     );
   });
   return (
-    <div className="container-fluid px-0 py-3 bg-light">
-      <section className="products" id="products">
+    <div className="container-fluid px-0 py-3 bg-light" id="products">
+      <section>
         <h2 className="fs-2 text-center mb-3">
           Our <span className="cliped_text px-4 py-2">products</span>
         </h2>

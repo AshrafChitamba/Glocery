@@ -57,27 +57,27 @@ const Footer = () => {
           <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-3 mb-sm-0 text-center text-sm-start">
             <h3>Quick Links</h3>
             <div className="d-grid gap-1">
-              <Link to="/" className="my-1">
+              <Link to="home" className="my-1">
                 <BsArrowRightShort color="orange" className="fs-4" />
                 <span className="ms-1 text-dark hover_slide">Home</span>
               </Link>
-              <Link to="/" className="my-1">
+              <Link to="features" className="my-1">
                 <BsArrowRightShort color="orange" className="fs-4" />
                 <span className="ms-1 text-dark hover_slide">Features</span>
               </Link>
-              <Link to="/" className="my-1">
+              <Link to="products" className="my-1">
                 <BsArrowRightShort color="orange" className="fs-4" />
                 <span className="ms-1 text-dark hover_slide">Products</span>
               </Link>
-              <Link to="/" className="my-1">
+              <Link to="categories" className="my-1">
                 <BsArrowRightShort color="orange" className="fs-4" />
                 <span className="ms-1 text-dark hover_slide">Categories</span>
               </Link>
-              <Link to="/" className="my-1">
+              <Link to="reviews" className="my-1">
                 <BsArrowRightShort color="orange" className="fs-4" />
                 <span className="ms-1 text-dark hover_slide">Review</span>
               </Link>
-              <Link to="/" className="my-1">
+              <Link to="blogs" className="my-1">
                 <BsArrowRightShort color="orange" className="fs-4" />
                 <span className="ms-1 text-dark hover_slide">Blogs</span>
               </Link>

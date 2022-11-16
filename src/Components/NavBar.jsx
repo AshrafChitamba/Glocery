@@ -54,7 +54,7 @@ const NavBar = () => {
         <Link to="categories" className="nav_link" smooth={true} duration={800}>
           Categories
         </Link>
-        <Link to="review" className="nav_link" smooth={true} duration={800}>
+        <Link to="reviews" className="nav_link" smooth={true} duration={800}>
           Review
         </Link>
         <Link to="blogs" className="nav_link" smooth={true} duration={800}>
