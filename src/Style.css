@@ -87,3 +87,8 @@ img {
 .btn-outline-dark {
   border: 2px solid #020202a0;
 }
+@media only screen and (min-width: 768px) {
+  .position-sm-unset {
+    position: unset !important;
+  }
+}

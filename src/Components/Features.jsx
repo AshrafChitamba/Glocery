@@ -19,8 +19,8 @@ const Features = () => {
 
   ]
   return (
-    <div className="container-fluid pt-4 pb-5">
-      <section className="features" id="features">
+    <div className="container-fluid pt-4 pb-5" id='features' >
+      <section>
         <h2 className="fs-2 text-center">
           Our <span className="cliped_text px-4 py-2">features</span>
         </h2>
