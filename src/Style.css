@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+.icons:hover {
+  transition: all 0.2s ease;
+  cursor: pointer;
+  color: whitesmoke;
+  background-color: orange !important;
+}
+
+.delete_icon {
+  transition: all 0.2s ease;
+}
+.delete_icon:hover {
+  cursor: pointer;
+  color: orange;
+}
+
+.nav_link {
+  color: #020202d8;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.nav_link:hover {
+  cursor: pointer;
+  color: orange;
+}
+
+.float_container {
+  right: 0 !important;
+  width: fit-content !important;
+}
+.search_input {
+  outline: none;
+  border: none;
+}
+.slide_in {
+  animation: slide-in 0.3s forwards ease;
+}
+@keyframes slide-in {
+  0% {
+    opacity: 0.4;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+.cliped_text {
+  clip-path: polygon(100% 0, 93% 47%, 100% 100%, 0% 100%, 9% 49%, 0% 0%);
+  background-color: orange;
+  text-transform: capitalize;
+  color: whitesmoke;
+  display: inline-block;
+}
+img {
+  object-fit: cover;
+}
+.center_container {
+  display: grid !important;
+  justify-content: center !important;
+}
+.feature_card {
+  transition: all 0.5s ease;
+}
+.feature_card:hover {
+  outline: 1px solid rgba(128, 128, 128, 0.606);
+  cursor: pointer;
+}
+
+.hover_slide {
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+.hover_slide:hover {
+  transform: translateX(15px);
+}
+.text-warning {
+  color: rgba(255, 166, 0, 0.996) !important;
+}
+.btn-outline-dark {
+  border: 2px solid #020202a0;
+}
