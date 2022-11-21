@@ -1,14 +1,14 @@
 import { FaStarHalfAlt } from "react-icons/fa";
 import { AiFillStar } from "react-icons/ai";
 import Carousel from "react-multi-carousel";
-import product1 from '../../image/product-1.png'
-import product2 from '../../image/product-2.png'
-import product3 from '../../image/product-3.png'
-import product4 from '../../image/product-4.png'
-import product5 from '../../image/product-5.png'
-import product6 from '../../image/product-6.png'
-import product7 from '../../image/product-7.png'
-import product8 from '../../image/product-8.png'
+import product1 from '../image/product-1.png'
+import product2 from '../image/product-2.png'
+import product3 from '../image/product-3.png'
+import product4 from '../image/product-4.png'
+import product5 from '../image/product-5.png'
+import product6 from '../image/product-6.png'
+import product7 from '../image/product-7.png'
+import product8 from '../image/product-8.png'
 
 const Products = () => {
   const data = [

@@ -5,7 +5,7 @@ import { GrFacebookOption, GrTwitter } from "react-icons/gr";
 import { FaLinkedin } from "react-icons/fa";
 import { RiShoppingBasket2Fill } from "react-icons/ri";
 import { Link } from "react-scroll";
-import image from '../../image/payment.png'
+import image from '../image/payment.png'
 
 const Footer = () => {
   return (

@@ -4,9 +4,9 @@ import { HiShoppingCart, HiOutlineSearch, HiUser } from "react-icons/hi";
 import { MdMenu } from "react-icons/md";
 import { RiShoppingBasket2Fill } from "react-icons/ri";
 import { MdDeleteOutline } from "react-icons/md";
-import cart1 from '../../image/cart-img-1.png'
-import cart2 from '../../image/cart-img-2.png'
-import cart3 from '../../image/cart-img-3.png'
+import cart1 from '../image/cart-img-1.png'
+import cart2 from '../image/cart-img-2.png'
+import cart3 from '../image/cart-img-3.png'
 
 const NavBar = () => {
   const [showSearchForm, setShowSearchForm] = useState(false);

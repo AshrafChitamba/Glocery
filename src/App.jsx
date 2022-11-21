@@ -11,6 +11,7 @@ import './Style.css'
 import Home from './Components/Home'
 import "react-multi-carousel/lib/styles.css";
 
+
 const App = ()  => {
   return (
     <div className='container-fluid position-relative p-0 overflow-hidden'>

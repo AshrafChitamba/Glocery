@@ -1,6 +1,6 @@
-import feature1 from '../../image/feature-img-1.png'
-import feature2 from '../../image/feature-img-2.png'
-import feature3 from '../../image/feature-img-3.png'
+import feature1 from '../image/feature-img-1.png'
+import feature2 from '../image/feature-img-2.png'
+import feature3 from '../image/feature-img-3.png'
 
 const Features = () => {
   const data = [

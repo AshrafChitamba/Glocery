@@ -1,10 +1,10 @@
 import { FaStarHalfAlt } from "react-icons/fa";
 import { AiFillStar } from "react-icons/ai";
 import Carousel from "react-multi-carousel";
-import pic1 from '../../image/pic-1.png'
-import pic2 from '../../image/pic-2.png'
-import pic3 from '../../image/pic-3.png'
-import pic4 from '../../image/pic-4.png'
+import pic1 from '../image/pic-1.png'
+import pic2 from '../image/pic-2.png'
+import pic3 from '../image/pic-3.png'
+import pic4 from '../image/pic-4.png'
 
 
 const CustomerReviews = () => {

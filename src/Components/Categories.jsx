@@ -1,10 +1,10 @@
 import { FaStarHalfAlt } from "react-icons/fa";
 import { AiFillStar } from "react-icons/ai";
 import Carousel from "react-multi-carousel";
-import cat1 from '../../image/cat-1.png'
-import cat2 from '../../image/cat-2.png'
-import cat3 from '../../image/cat-3.png'
-import cat4 from '../../image/cat-4.png'
+import cat1 from '../image/cat-1.png'
+import cat2 from '../image/cat-2.png'
+import cat3 from '../image/cat-3.png'
+import cat4 from '../image/cat-4.png'
 
 const Categories = () => {
   const data = [

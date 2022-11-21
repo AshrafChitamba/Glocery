@@ -1,4 +1,4 @@
-import Image from '../../image/banner-bg.webp'
+import Image from '../image/banner-bg.webp'
 const Home = () => {
     const styles = {
       background: `url(${Image})`,
